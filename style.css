@@ -64,6 +64,7 @@ div#tipos > div.cores {
     width: 40px;
     height: 40px;
     border-radius: 50%;
+    box-shadow: 2px 1px 1px rgba(0, 0, 0, 0.52);
 }
 
 .branca {
@@ -96,4 +97,8 @@ div#tipos > div.cores {
 
 .vermelha {
     background-color: #AE3032;
+}
+
+.melancia {
+    background-color: #BD5D6E;
 }
