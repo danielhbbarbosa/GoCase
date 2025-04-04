@@ -56,6 +56,10 @@ main > section#principal > div#texto > a {
     transition: 0.5s;
 }
 
+main > section#principal > div#texto > a:hover {
+    opacity: 0.6;
+}
+
 div#tipos{
     display: flex;
     gap: 10px;
@@ -67,6 +71,11 @@ div#tipos > div.cores {
     height: 40px;
     border-radius: 50%;
     box-shadow: 2px 1px 1px rgba(0, 0, 0, 0.52);
+    transition: 0.5s;
+}
+
+div#tipos > div.cores:hover {
+    opacity: 0.7;
 }
 
 .branca {
