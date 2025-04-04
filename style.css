@@ -27,7 +27,7 @@ main > section#principal {
 
 main > section#principal > div#texto > h1 {
     font-size: 80px;
-    text-shadow: -2px 3px rgb(189, 189, 189);   
+    text-shadow: 2px 3px rgb(189, 189, 189);   
 }
 
 main > section#principal > div#garrafa > img {
