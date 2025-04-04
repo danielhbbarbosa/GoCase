@@ -9,6 +9,7 @@ body {
     background-color: rgb(255, 255, 255);
     padding: 40px 160px;
     color: rgb(38, 38, 38);
+    overflow: hidden;
 }
 
 header img{
@@ -34,7 +35,7 @@ main > section#principal > div#garrafa > img {
 }
 
 main > section#principal > div#texto {
-    
+    max-width: 500px;
 }
 
 main > section#principal > div#texto > h4 {
@@ -58,6 +59,7 @@ main > section#principal > div#texto > a {
 div#tipos{
     display: flex;
     gap: 10px;
+    margin-top: 25px;
 }
 
 div#tipos > div.cores {
