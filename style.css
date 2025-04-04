@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Noto Sans";
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    padding: 40px 160px;
+    color: rgb(38, 38, 38);
+}
+
+header img{
+    width: 120px;
+}
+
+main {
+    padding-left: 20px;
+}
+
+main > section#principal {
+    display: flex;
+    justify-content: space-between;
+}
+
+main > section#principal > div#texto > h1 {
+    font-size: 80px;
+    text-shadow: -2px 3px rgb(189, 189, 189);   
+}
+
+main > section#principal > div#garrafa > img {
+    width: 500px;
+}
+
+main > section#principal > div#texto {
+    
+}
+
+main > section#principal > div#texto > h4 {
+    font-size: 2em;
+    color: #EC7C59  ;
+    margin: 40px 0px 20px 0px;
+}
+
+main > section#principal > div#texto > p {
+    margin: 20px 0px 40px 0px;
+}
+
+main > section#principal > div#texto > a {
+    padding: 10px 20px;
+    background-color: #025BAD;
+    border-radius: 20px;
+    color: white;
+    transition: 0.5s;
+}
+
+div#tipos{
+    display: flex;
+    gap: 10px;
+}
+
+div#tipos > div.cores {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.branca {
+    background-color: rgb(221, 221, 221);
+}
+
+.azul-marinho {
+    background-color: #2F5E8B;
+}
+
+.lemon {
+    background-color: #CBCF60;
+}
+
+.lilas {
+    background-color: #A397B9;
+}
+
+.pink {
+    background-color: #E463B6;
+}
+
+.preta {
+    background-color: black;
+}
+
+.rosa {
+    background-color: #C6A4A2;
+}
+
+.vermelha {
+    background-color: #AE3032;
+}
